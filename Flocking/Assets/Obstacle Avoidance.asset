@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbf70355244fb849aab05421e3ef3a9, type: 3}
+  m_Name: Obstacle Avoidance
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: b59c279f108737f47b8a509383b41fdc, type: 2}
+  - {fileID: 11400000, guid: 68783bbf0090c9c4388e1d7f4a1a2081, type: 2}
+  - {fileID: 11400000, guid: 5bfaaa0a07cb2f14ba71ac08e372b96b, type: 2}
+  - {fileID: 11400000, guid: 37259d7f005844440a5230213baca638, type: 2}
+  weights:
+  - 1
+  - 1
+  - 3
+  - 0.1
